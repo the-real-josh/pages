@@ -105,11 +105,12 @@ body {
    background-image: linear-gradient(45deg, #19181c, #534590);
    padding-top: 10%;
    padding-bottom: 10%;
+   display: flex;
+   justify-content: space-evenly;
 }
 .education .column {
    padding-left: 15%;
-   float: left;
-   width: 50%;
+   width: 40%;
 }
 
 
@@ -120,11 +121,17 @@ body {
 .songs .spotify-wrapper {
    display: flex;
    justify-content: center;
+   padding-bottom: 60px;
 }
 
 
 /* contact me section */
+.contact {
+   background-image: linear-gradient(180deg, #19181c, #534590);
+}
+
 .contact .left-centered-header {
+   padding-top: 30px;
    padding-left: 200px;
 }
 
