@@ -1,10 +1,141 @@
+h1 {
+   font-size: 75px;
+}
+
+h2 {
+   font-size: 30px;
+}
+
+p {
+   font-size: 18px;
+}
 
 body {
    color: #ffffff;
-   background-color: #202020;
+   background-color: #000000;
    font-family: "Nata Sans", sans-serif;
    font-optical-sizing: auto;
    font-weight: 100;
    font-style: normal;
 }
 
+.Intro {
+   padding-top: 15%;
+   padding-left: 30%;
+   padding-right: 30%;
+   padding-bottom: 15%;
+   text-align: left;
+   background-color: #000000; /* For browsers that do not support gradients */
+   background-image: linear-gradient(45deg, #19181c, #534590);
+   background-repeat: no-repeat;
+   background-size: 100% 75%;
+   background-position: center;
+   
+}
+
+/* project section */
+.portfolio .left-centered-header {
+   padding-left: 200px;
+}
+.portfolio .horiz-list {
+  display: flex;
+  justify-content: space-evenly; /* or space-between / space-around */
+  padding: 20px;
+  padding-bottom: 75px;
+}
+.portfolio .horiz-list img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+.portfolio .horiz-list div {
+  max-width: 500px;
+   padding: 10px 20px;
+  border-radius: 4px;
+}
+
+/* skills section */
+.skills {
+   background-image: linear-gradient(135deg, #19181c, #534590);
+   padding-bottom: 60px;
+   padding-top: 30px;
+}
+.skills .left-centered-header {
+   padding-left: 200px;
+}
+.skills-list {
+   font-size: 20px;
+   padding-left: 300px;
+   padding-bottom: 60px;
+}
+
+/* jobs section */
+.experiences {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.experiences .left-centered-header {
+   padding-left: 200px;
+}
+.experiences .individual-job {
+  display: flex;
+  gap: 5%;
+  margin-bottom: 60px;
+}
+
+.experiences .individual-job .column {
+  flex: 1;
+  padding: 100px;
+  /* justify-content: center; <-- did not do anything. */
+}
+
+
+/* 
+.experiences .gradient-divider {
+   height: 5px; 
+   width: 10%;
+   margin: 30px 0;
+   background: linear-gradient(0deg, #19181c, #534590); 
+}
+  */
+
+/* education section */
+.education {
+   background-image: linear-gradient(45deg, #19181c, #534590);
+   padding-top: 10%;
+   padding-bottom: 10%;
+}
+.education .column {
+   padding-left: 15%;
+   float: left;
+   width: 50%;
+}
+
+
+/* songs section */
+.songs .left-centered-header {
+   padding-left: 200px;
+}
+.songs .spotify-wrapper {
+   display: flex;
+   justify-content: center;
+}
+
+
+/* contact me section */
+.contact .left-centered-header {
+   padding-left: 200px;
+}
+
+.contact .horiz-list {
+  display: flex;
+  justify-content: space-evenly; /* or space-between / space-around */
+  padding: 20px;
+  padding-bottom: 75px;
+}
+
+.contact .horiz-list div {
+  padding: 10px 20px;
+  border-radius: 4px;
+}

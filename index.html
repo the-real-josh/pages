@@ -8,56 +8,164 @@
 
   </head>
   <body>
-    <h1 id="about-me">about me</h1>
-    <p>
-      I am a guy that likes fast things, things that fly, and things that
-      shouldn&#39;t work but do anyway. I love making ideas come to life. I am a
-      fourth-year aerospace engineering student at Texas A&amp;M University, and
-      I&#39;m graduating in May of 2026.
-    </p>
-    <p>
-      If you have any leads on jobs that let me spend a ridiculous amount of
-      time building really cool stuff with great people, and makes me enough
-      money to eat and work on my old motorcycle, give me a call.
-    </p>
-    <h1 id="my-three-favorite-projects">my three favorite projects</h1>
-    <h2 id="cfd-solver">CFD Solver</h2>
-    <ul>
-      <li>Made in C++</li>
-      <li>My most complex and involved coding project ever</li>
-      <li>
-        Solves for the transonic flow through a converging-diverging duct using
-        inviscid Euler equations with RK45 time-stepping and JST dissipation.
-      </li>
-      <li>https://github.com/the-real-josh/cfd-solver-2</li>
-    </ul>
-    <h2 id="toothless">Toothless</h2>
-    <ul>
-      <li>My scratch-built level 1 high-power rocket</li>
-      <li>Experimented with various manufacturing techniques</li>
-      <li>Lots of failures, lots of learning</li>
-    </ul>
-    <h2 id="morpheus">Morpheus</h2>
-    <ul>
-      <li>Built with SRT</li>
-      <li>High-powered level 3 rocket to hit 30,000 ft</li>
-    </ul>
-    <h1 id="social">social</h1>
-    <ul>
-      <li>email: j-minotti@tamu.edu</li>
-      <li>linkedIn: linkedin.com/in/aero-joshua</li>
-    </ul>
-    <h1 id="other-projects">other projects</h1>
-    <ul>
-      <li>pc case</li>
-      <li>strideguide</li>
-    </ul>
-    <h1 id="top-skills">top skills</h1>
-    <ul>
-      <li>throwing together crap in python</li>
-      <li>making some quick and dirty cad in solidworks</li>
-      <li>making carbon fiber composites a bit better than your average joe</li>
-      <li>figuring out stuff and getting things done</li>
-    </ul>
+
+    <section class="Intro">
+        <h1 id="about-me-title">About Me</h1>
+        <p id="about-me-text">
+        I am a guy that likes fast things, things that fly, and things that
+        shouldn&#39;t work but do anyway. I love making ideas come to life. I am a
+        fourth-year aerospace engineering student at Texas A&amp;M University, and
+        I&#39;m graduating in May of 2026.
+        </p>
+        <p>
+        If you have any leads on jobs that let me spend a ridiculous amount of
+        time building really cool stuff with great people, give me a call.
+        </p>
+    </section>
+
+    <section class="portfolio">
+        <h1 class="left-centered-header">Favorite projects</h1>
+            <div class="horiz-list">
+                <div>
+                    <img src="https://i.imgur.com/BEZCId1.png" alt="Girl in a jacket" width="300">
+                    <h2 id="cfd-solver">CFD Solver</h2>
+                    <ul>
+                        <li>Made in C++ and Python</li>
+                        <li>My most complex and involved coding project that I have ever made.</li>
+                        <li>Solves for the transonic flow of air through a converging-diverging duct using
+                            inviscid Euler equations with RK45 time-stepping and JST dissipation.
+                        </li>
+                        <li>The full project can be viewed at: https://github.com/the-real-josh/cfd-solver-2</li>
+                    </ul>
+                </div>
+                <div>
+                    <img src="https://i.imgur.com/O5OK06Y.png" alt="Girl in a jacket" width="300">
+                    <h2 id="toothless">Toothless</h2>
+                    <ul>
+                        <li>My scratch-built level 1 high-power rocket</li>
+                        <li>Experimented with various manufacturing techniques</li>
+                        <li>Lots of failures, lots of learning</li>
+                    </ul>
+                </div>
+                <div>
+                    <img src="https://i.imgur.com/VWFeOeg.jpeg" alt="Girl in a jacket" width="300">
+                    <h2 id="morpheus">Morpheus</h2>
+                    <ul>
+                        <li>Built with SRT</li>
+                        <li>High-powered level 3 rocket to hit 30,000 ft</li>
+                        <li>Learned the importance of doing the structures calcs, no matter how "overbuilt" the structure might seem.</li>
+                    </ul>
+                </div>
+
+            </div>
+
+    </section>
+
+    <!-- top skill section -->
+    <section class="skills">
+        <h1 class="left-centered-header">Top skills</h1>
+        <ul class="skills-list">
+            <li>Python</li>
+            <li>CAD (SolidWorks and Fusion)</li>
+            <li>Composites (Fiberglass and Carbon Fiber)</li>
+            <li>General fabrication fxperience</li>
+            <li>Figuring out stuff. I ain't scared</li>
+        </ul>
+    </section>
+
+    <!-- Work experience section -->
+    <section class="experiences">
+        <div class="left-centered-header">
+            <h1>Work & Experience</h1>
+        </div>
+
+        <div class="individual-job">
+            <div class="column">
+                <h2>Texas A&M Automated Design and Fabrication Lab</h1>
+            </div>
+            <div class="column">
+                <h4>Student Technician</h4>
+                <ul>
+                    <li>Learned important skills skills, including how to weld, how to lay up composites, how to cut material on the waterjet, and how to use laser cutters.</li>
+                    <li>Spearheaded a project invovling fiberglass-overwrapped composites, recommending decisions based on prior composites experience.</li>
+                    <li>June 2025-present</li>
+                </ul>
+            </div>
+        </div>
+        <!-- <div class="gradient-divider"></div> -->
+
+        <div class="individual-job">
+            <div class="column">
+                <h2>SRT (Sounding Rocketry Team)</h1>
+            </div>
+            <div class="column">
+                <h4>Structures Member</h4>
+                <ul>
+                    <li>Did composites work for multiple rockets, creating aluminum mandrels, rolling composite tubes, creating pi bonds, and improving surface finish.</li>
+                    <li>Learned SolidWorks CAD</li>
+                    <li>Used graphic design skills to help develop the live telemetry UI, as well as update the SRT logo to professional standards.</li>
+                    <li>May 2024-present</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="individual-job">
+            <div class="column">
+                <h2>Hartman REIT Property Management</h1>
+            </div>
+            <div class="column">
+                <h4>Property Administrator</h4>
+                <ul>
+                    <li>Helped the property managers take care of the office building tenants better</li>
+                    <li>Automated invoicing with Python, saving dozens of hours every month.</li>
+                    <li>Analyzed and sorted contact data with Python.</li>
+                    <li>Communicated with contractors</li>
+                    <li>Gave tours of vacant office spaces</li>
+                    <li>Facilitated communication between tenants and Hartman staff.</li>
+                    <li>May 2023-August 2023</li>
+                </ul>
+            </div>
+        </div>
+        <!-- <div class="gradient-divider"></div> -->
+
+    </section>
+
+
+    <!-- Education section -->
+    <section class="education">
+        <div class="column">
+            <h1>Education</h1>
+        </div>
+        <div id="column">
+            <h2>Texas A&M University</h3>
+            <h4>Aerospace Engineering</h6>
+            <ul>
+                <li>GPA: 3.1</li>
+                <li>Completion: 125/148 credit hours</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- my spotify link -->
+    <section class="songs">
+        <div class="left-centered-header">
+            <h1>Favourite Songs</h1>
+        </div>
+        <div, class="spotify-wrapper">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/36Ico7isL3ec178s6tziOK?utm_source=generator" width=40% height="452" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <!-- contact me section -->
+    <section class="contact">
+        <div class="left-centered-header">
+            <h1>Contact</h1>
+        </div>
+        <div class="horiz-list">
+            <div>Email: j-minotti@tamu.edu</div>
+            <div>LinkedIn: linkedin.com/in/aero-joshua</div>
+        </div>
+    </section>
+
   </body>
 </html>
