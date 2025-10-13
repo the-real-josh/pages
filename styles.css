@@ -47,12 +47,17 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding: 10px;
 }
 .portfolio .horiz-list div {
   max-width: 500px;
   padding: 10px 20px;
   border-radius: 4px;
 }
+.portfolio .horiz-list a {
+    color: #FFFFFF;
+}
+
 
 /* skills section */
 .skills {
@@ -144,4 +149,23 @@ body {
 .contact .horiz-list div {
   padding: 10px 20px;
   border-radius: 4px;
+}
+
+.contact .horiz-list a {
+   color: #FFF;
+}
+
+@media screen and (max-width: 956px){
+
+
+  /*write your CSS-Code here*/
+
+
+}
+@media screen and (max-width: 956px){
+
+
+  /*write your CSS-Code here*/
+
+
 }
