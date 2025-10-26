@@ -20,15 +20,15 @@ body {
 }
 
 .Intro {
-   padding-top: 7%;
-   padding-left: 30%;
-   padding-right: 30%;
-   padding-bottom: 15%;
+   padding-top: 25vh;
+   padding-left: 30vw;
+   padding-right: 30vw;
+   padding-bottom: 25vh;
    text-align: left;
    background-color: #000000; /* For browsers that do not support gradients */
    background-image: linear-gradient(45deg, #19181c, #534590);
    background-repeat: no-repeat;
-   background-size: 100% 75%;
+   background-size: 100vw 50vh;
    background-position: center;
    
 }
@@ -66,12 +66,13 @@ body {
    padding-top: 30px;
 }
 .skills .left-centered-header {
-   padding-left: 200px;
+   padding-left: 10vw;
+   padding-right: 10vw;
 }
 .skills-list {
    font-size: 20px;
-   padding-left: 300px;
-   padding-bottom: 60px;
+   padding-left: 15vw;
+   padding-bottom: 6vh;
 }
 
 /* jobs section */
@@ -80,7 +81,8 @@ body {
   padding-bottom: 80px;
 }
 .experiences .left-centered-header {
-   padding-left: 200px;
+   padding-left: 10vw;
+   padding-right: 10vw;
 }
 .experiences .individual-job {
   display: flex;
@@ -95,20 +97,11 @@ body {
 }
 
 
-/* 
-.experiences .gradient-divider {
-   height: 5px; 
-   width: 10%;
-   margin: 30px 0;
-   background: linear-gradient(0deg, #19181c, #534590); 
-}
-  */
-
 /* education section */
 .education {
    background-image: linear-gradient(45deg, #19181c, #534590);
-   padding-top: 10%;
-   padding-bottom: 10%;
+   padding-top: 20vh;
+   padding-bottom: 20vh;
    display: flex;
    justify-content: space-evenly;
 }
@@ -120,12 +113,16 @@ body {
 
 /* songs section */
 .songs .left-centered-header {
-   padding-left: 200px;
+   padding-left: 10vw;
+   padding-right: 10vw;
 }
 .songs .spotify-wrapper {
-   display: flex;
+   width: 50vw;
+   height: 50vh;
+   display: flex; /* important to make it stretchable ig? */
    justify-content: center;
-   padding-bottom: 60px;
+   padding-bottom: 6vh;
+   margin: 0 auto; /* makes it centered*/
 }
 
 
@@ -135,15 +132,15 @@ body {
 }
 
 .contact .left-centered-header {
-   padding-top: 30px;
-   padding-left: 200px;
+   padding-top: 7vh;
+   padding-left: 10vw;
 }
 
 .contact .horiz-list {
   display: flex;
   justify-content: space-evenly; /* or space-between / space-around */
-  padding: 20px;
-  padding-bottom: 75px;
+  padding: 3vw;
+  padding-bottom: 6vw;
 }
 
 .contact .horiz-list div {
@@ -155,17 +152,105 @@ body {
    color: #FFF;
 }
 
+
+/* mobile settings */
 @media screen and (max-width: 956px){
+   /*intro*/
+   .Intro {
+      padding-top: 25vh;
+      padding-left: 10vw;
+      padding-right: 10vw;
+      padding-bottom: 25vh;
+      background-size: cover;
+      background-position: center;    
+      text-align: center;
+   }
+
+   /*portfolio*/
+   .portfolio .left-centered-header {
+      padding-left: 10vw;
+      padding-right: 10vw;
+   }
+   .portfolio .horiz-list {
+      display: grid;
+      justify-content: space-evenly; /* or space-between / space-around */
+      padding: 20px;
+      padding-bottom: 75px;
+   }
+   .portfolio .horiz-list img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 10px;
+   }
+   .portfolio .horiz-list div {
+      max-width: 500px;
+      padding: 10px 20px;
+      border-radius: 4px;
+   }
+   .portfolio .horiz-list a {
+      color: #FFFFFF;
+   }
 
 
-  /*write your CSS-Code here*/
+   /* top skills */
+   .skills .left-centered-header {
+      text-align: center;
+   }
+   
+
+   /* experiences */
+   .experiences .left-centered-header {
+      padding-left: 0vw;
+      padding-right: 0vw;
+      text-align: center;
+   }
+   .experiences .individual-job {
+      text-align: center;
+      display: grid;
+      gap: 0px;
+      margin-bottom: 0px;
+   }
+   .experiences .individual-job .column {
+      text-align: left;
+      padding: 3vh;
+   }
+
+   /* education section */
+   .education {
+      display: grid;
+      justify-items: center;
+      padding: 0px;
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-bottom: 10vh;
+   }
+   .education .column {
+      padding: 0px;
+      padding-left: 0px;
+      padding-right: 0px;
+      text-align: center;
+   }
+   .education .column .col-list {
+      justify-content: left;
+      text-align: left;
+      padding: 0px;
+      padding-left: 0px;
+      padding-right: 0px;
+   }
 
 
-}
-@media screen and (max-width: 956px){
+   /* favorite songs */
+   .songs .left-centered-header {
+      text-align: center;
+      padding-left: 10vw;
+      padding-right: 10vw;
+   }
 
-
-  /*write your CSS-Code here*/
-
-
+   /* contact me section */
+   .contact .horiz-list {
+      display: grid;
+      text-align: center;
+      justify-content: space-evenly; /* or space-between / space-around */
+   }
 }
