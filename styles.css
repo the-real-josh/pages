@@ -20,17 +20,22 @@ body {
 }
 
 .Intro {
-   padding-top: 25vh;
-   padding-left: 30vw;
-   padding-right: 30vw;
-   padding-bottom: 25vh;
-   text-align: left;
-   background-color: #000000; /* For browsers that do not support gradients */
    background-image: linear-gradient(45deg, #19181c, #534590);
    background-repeat: no-repeat;
-   background-size: 100vw 50vh;
-   background-position: center;
-   
+   background-size: 100vw, 50vh;
+   margin-top: 25vh;
+   margin-bottom: 35vh;
+}
+
+.Intro .about-me-title {
+   padding-top: 10vh;
+   padding-left: 20vw;
+   padding-right: 20vw;
+}
+.Intro .about-me-text {
+   padding-bottom: 10vh;
+   padding-left: 20vw;
+   padding-right: 20vw;
 }
 
 /* project section */
