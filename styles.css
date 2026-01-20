@@ -10,6 +10,7 @@ p {
    font-size: 18px;
 }
 
+/* relevant for everything */
 body {
    color: #ffffff;
    background-color: #000000;
@@ -17,26 +18,34 @@ body {
    font-optical-sizing: auto;
    font-weight: 100;
    font-style: normal;
+
 }
 
-.Intro {
-   background-image: linear-gradient(45deg, #19181c, #534590);
+.intro-page {
+   padding-bottom: 3vh;
+   padding-left: 3vw;
+   padding-right: 3vw;
+
+   height: 100vh;               /* 100% of the viewport height */
+   background-image: url("background.png");
+   background-size: cover;      /* Scale image to fill */
+   background-position: center;
    background-repeat: no-repeat;
-   background-size: 100vw, 50vh;
-   margin-top: 25vh;
-   margin-bottom: 35vh;
+
+   display: flex;               /* Optional: center content */
+   align-items: center;
+   justify-content: center;
+   color: white;
 }
 
-.Intro .about-me-title {
-   padding-top: 10vh;
-   padding-left: 20vw;
-   padding-right: 20vw;
+
+.about {
+   padding-left: 10vw;
+   padding-right: 10vw;
+   padding-top: 35vh;
+   padding-bottom: 35vh;
 }
-.Intro .about-me-text {
-   padding-bottom: 10vh;
-   padding-left: 20vw;
-   padding-right: 20vw;
-}
+
 
 /* project section */
 .portfolio .left-centered-header {
