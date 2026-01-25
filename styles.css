@@ -170,14 +170,26 @@ body {
 /* mobile settings */
 @media screen and (max-width: 956px){
    /*intro*/
-   .Intro {
-      padding-top: 25vh;
-      padding-left: 10vw;
-      padding-right: 10vw;
-      padding-bottom: 25vh;
-      background-size: cover;
-      background-position: center;    
+   .intro-page {
+      
+      background-image: url("mobile\ background.png");
+      background-size: contain;      /* Scale image to fill */
+      background-position: center;
+      background-repeat: no-repeat;
+
+      display: flex;               /* Optional: center content */
+      align-items: center;
+      justify-content: center;
+      color: white;
+   }
+   .about {
+      padding: 0;
+      padding-top: 35vh;
+      padding-bottom: 35vh;
       text-align: center;
+      font-size: 14px;
+      margin: 0px;
+      box-sizing: border-box;
    }
 
    /*portfolio*/
