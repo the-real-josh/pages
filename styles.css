@@ -47,28 +47,60 @@ body {
 }
 
 
-/* project section */
+/* portfolio (projects) section */
+
+/* title */
 .portfolio .left-centered-header {
    padding-left: 200px;
 }
+
+/* for each of the individual projects (each is a horiz-list)*/
 .portfolio .horiz-list {
   display: flex;
   justify-content: space-evenly; /* or space-between / space-around */
   padding: 20px;
   padding-bottom: 75px;
 }
-.portfolio .horiz-list img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px;
+
+/* for whole image gallery  */
+.portfolio .horiz-list .horiz-list-gallery {
+   white-space: nowrap;
+   grid-template-columns: auto auto;
+   grid-gap: 20px;
+   padding: 10px;
+   overflow-x: scroll;
 }
+
+/* for the individual images */
+.portfolio .horiz-list .horiz-list-gallery img {
+    height: 400px;      /* pick your desired constant height */
+    width: auto;        /* let width scale */
+    flex: 0 0 auto;     /* prevent flexbox from stretching/shrinking them */
+    object-fit: cover;  /* optional: crop to fill the height nicely */
+}
+
+/* for the scrollbar */
+.portfolio .horiz-list .horiz-list-gallery::-webkit-scrollbar {
+  height: 12px;
+}
+.portfolio .horiz-list .horiz-list-gallery::-webkit-scrollbar-track {
+   background-color: transparent;
+   border: 1.5px solid #fff;
+   border-radius: 8px;
+}
+.portfolio .horiz-list .horiz-list-gallery::-webkit-scrollbar-thumb {
+   background-image: -webkit-gradient(linear, left bottom, left top, color-stop(.5, #534590), color-stop(1, #342E54));
+   border-radius: 8px;
+}
+
+/* meant to affect the text*/
 .portfolio .horiz-list div {
   max-width: 500px;
   padding: 10px 20px;
   border-radius: 4px;
 }
 .portfolio .horiz-list a {
+   /* makes sure that the github hyperlink is white not blue*/
     color: #FFFFFF;
 }
 
@@ -212,7 +244,7 @@ body {
    .portfolio .horiz-list div {
       max-width: 500px;
       padding: 10px 20px;
-      border-radius: 4px;
+      border-radius: 24px;
    }
    .portfolio .horiz-list a {
       color: #FFFFFF;
