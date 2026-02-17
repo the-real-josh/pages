@@ -22,9 +22,10 @@
     </section>
 
     <section class="portfolio">
+            <!-- Row 1 -->
         <h1 class="left-centered-header">Top projects</h1>
             <div class="horiz-list">
-                <!-- cfd solver -->
+                <!-- CFD solver -->
                 <div>
                     <div class="horiz-list-gallery">
                         <img src="resources/euler_jst_cfd/i0.png" alt="cfd_img0">
@@ -43,78 +44,86 @@
                         <img src="resources/euler_jst_cfd/i13.gif" alt="cfd_img13">
                         <img src="resources/euler_jst_cfd/i14.png" alt="cfd_img14">
                     </div>
-                    <h2 id="cfd-solver">CFD Solver</h2>
-                    <h3>February 2025-June 2025</h3>
-                    <ul>
-                        <li>Made in C++ and Python.</li>
-                        <li>My most complex and involved coding project that I have ever made.</li>
-                        <li>Solves for the transonic flow of air through a converging-diverging duct using.
-                            inviscid Euler equations with RK45 time-stepping and JST dissipation.
-                        </li>
-                        <li>The full project can be viewed on <a href=https://github.com/the-real-josh/cfd-solver-2></ahref>my Github.</a></li>
-                    </ul>
-                </div>
-
-                <!-- ragnarok -->
-                <div>
-                    <div class="horiz-list-gallery">
-                        <img src="resources/RED_ragnarok/rag_CAD.png" alt="ragnarok image" width="300">
-                        <img src="resources/RED_ragnarok/Ragnarok_WeakTension_Deform.gif" alt="ragnarok weak pretension" width="300">
-                        <img src="resources/RED_ragnarok/Ragnarok_StrongPretension.png" alt="ragnarok strong pretension" width="300">
-                        <img src="resources/RED_ragnarok/FEA_badBC.png" alt="bad boundary condition" width="300">
-                        <img src="resources/RED_ragnarok/Fixing_loading.png" alt="fixing boundary condition" width="300">
-                    </div>
-                    <h2 id="ragnarok">Ragnarök</h2>
-                    <h3>January 2026 - Present</h3>
-                    <ul>
-                        <li>Designed crucial components of A&M's first regeneratively cooled rocket engine.</li>
-                        <li>Undertook structural analysis for Ragnarök's thrust chamber assembly, deriving load-cases using fluid-flow fundamentals, simulating them using Ansys Static Structural Finite Element Analysis (FEA), and verifying their validity using structural theory. </li>
-                        <li>Recommended geometry changes based on FEA results, and executed them in Onshape.</li>
-                    </ul>
-                </div>
+                <h2 id="cfd-solver">CFD Solver</h2>
+                <h3>February 2025-June 2025</h3>
+                <ul>
+                    <li>Made in C++ and Python.</li>
+                    <li>My most complex and involved coding project that I have ever made.</li>
+                    <li>Solves for the transonic flow of air through a converging-diverging duct using.
+                        inviscid Euler equations with RK45 time-stepping and JST dissipation.
+                    </li>
+                    <li>The full project can be viewed on <a href=https://github.com/the-real-josh/cfd-solver-2></ahref>my Github.</a></li>
+                </ul>
             </div>
-
-            <!-- Row 2 -->
-        <h1 class="left-centered-header"></h1>
-            <div class="horiz-list">
-                <!-- swole invictus -->
-                <div>
-                    <div class="horiz-list-gallery">
-                        <img src="resources/IREC_sol/i0.png" alt="IREC_rocket_sol_img0">
-                        <img src="resources/IREC_sol/i1.png" alt="IREC_rocket_sol_img1">
-                        <img src="resources/IREC_sol/i2.png" alt="IREC_rocket_sol_img2">
-                        <img src="resources/IREC_sol/i3.png" alt="IREC_rocket_sol_img3">
-                        <img src="resources/IREC_sol/i4.JPEG" alt="IREC_rocket_sol_img4">
-                        <img src="resources/IREC_sol/i5.JPEG" alt="IREC_rocket_sol_img5">
-                        <img src="resources/IREC_sol/i6.JPEG" alt="IREC_rocket_sol_img6">
-                    </div>
-                    <h2 id="sol-invictus">Sol Invictus</h2>
-                    <h3>August 2025 - May 2026</h3>
-                    <ul>
-                        <li>Sol Invictus is a student-designed hybrid rocket designed to compete in the 30K hybrids category for the 2026 IREC (International Rocket Engineering Competition).</li>
-                        <li>I designed the payload structure</li>
-                            <ul>
-                                <li>I invented a novel snap-fit shelf-spine design that reduces the assembly time and difficulty.</li>
-                                <li>I applied knowledge of mechanical design and engineering from all my different engineering experiences.</li>
-                                <li>Communicated with payload electronics people to make sure their needs were met.</li>
-                            </ul>
-                        <li>I designed the nosecone</li>
-                            <ul>
-                                <li>Chose the geometry to provide optimal aerodynamics as well as maximum versatility and ease of integration for the payload RADAR team.</li>
-                                <li>Created a bill of materials to purchase so that the nosecone could be manufactured.</li>
-                                <li>Ran Ansys Explicit Dynamics and Ansys Static Structural simulations to model ground impact.</li>
-                            </ul>
-                        <li>Designed the fincan</li>
-                            <ul>
-                                <li>Applied knowledge of how minimum diameter sounding rocket fincans are designed.</li>
-                                <li>Modeled the composite fincan in Ansys ACP Pre</li>
-                                <li>Simulated the deflection of the fins and fincan under load to verify adequate strength.</li>
-                                <li>Fincan design was ultimately not chosen for organization's internal reasons.</li>
-                            </ul>
-
-                    </ul>
+            <div>
+                <div class="horiz-list-gallery">
+                    <img src="resources/toothless/n.png" alt="ragnarok image" width="300">
                 </div>
-                <!-- irec morpheus -->
+                <h2 id="ragnarok">Ragnarök</h2>
+                <h3>January 2026 - Present</h3>
+                <ul>
+                    <li>Contributed to the design of A&M's first regeneratively cooled rocket engine.</li>
+                    <li>Undertook structural analysis for Ragnarök's thrust chamber assembly, deriving load-cases using fluid-flow fundamentals, simulating them using Ansys Static Structural Finite Element Analysis (FEA), and verifying their validity using structural theory. </li>
+                    <li>Recommended geometry changes based on FEA results, and executed them in Onshape.</li>
+                </ul>
+            </div>
+ 
+
+
+            <!-- Row 2-->
+            <!-- toothless -->
+            <div>
+                <div class="horiz-list-gallery">
+                    <img src="resources/toothless/i0.JPEG" alt="Toothless_rocket_img" width="300">
+                    <img src="resources/toothless/i1.JPEG" alt="Toothless_rocket_img" width="300">
+                    <img src="resources/toothless/i2.JPEG" alt="Toothless_rocket_img" width="300">
+                    <img src="resources/toothless/i3.JPEG" alt="Toothless_rocket_img" width="300">
+                    <img src="resources/toothless/i4.JPG" alt="Toothless_rocket_img" width="300">
+                    <img src="resources/toothless/i5.JPG" alt="Toothless_rocket_img" width="300">
+                    <img src="resources/toothless/i6.JPG" alt="Toothless_rocket_img" width="300">
+                    <img src="resources/toothless/i7.JPEG" alt="Toothless_rocket_img" width="300">
+                    <img src="resources/toothless/i8.JPEG" alt="Toothless_rocket_img" width="300">
+                    <img src="resources/toothless/i9.JPEG" alt="Toothless_rocket_img" width="300">
+                    <img src="resources/toothless/i10.JPEG" alt="Toothless_rocket_img" width="300">
+                    <img src="resources/toothless/i11.JPEG" alt="Toothless_rocket_img" width="300">
+                    <img src="resources/toothless/i12.JPEG" alt="Toothless_rocket_img" width="300">
+                    <img src="resources/toothless/i13.JPG" alt="Toothless_rocket_img" width="300">
+                    <img src="resources/toothless/i14.JPEG" alt="Toothless_rocket_img" width="300">
+                    <img src="resources/toothless/i15.JPG" alt="Toothless_rocket_img" width="300">
+                    <img src="resources/toothless/i16.JPG" alt="Toothless_rocket_img" width="300">
+                    <img src="resources/toothless/i17.JPG" alt="Toothless_rocket_img" width="300">
+                    <img src="resources/toothless/i18.JPG" alt="Toothless_rocket_img" width="300">
+                    <img src="resources/toothless/i19.JPEG" alt="Toothless_rocket_img" width="300">
+                    <img src="resources/toothless/i20.JPEG" alt="Toothless_rocket_img" width="300">
+                    <img src="resources/toothless/i21.JPEG" alt="Toothless_rocket_img" width="300">
+                    <img src="resources/toothless/i22.JPEG" alt="Toothless_rocket_img" width="300">
+                    <img src="resources/toothless/i23.JPEG" alt="Toothless_rocket_img" width="300">
+                    <img src="resources/toothless/i24.JPEG" alt="Toothless_rocket_img" width="300">
+                    <img src="resources/toothless/i25.JPEG" alt="Toothless_rocket_img" width="300">
+                    <img src="resources/toothless/i26.JPEG" alt="Toothless_rocket_img" width="300">
+                    <img src="resources/toothless/i27.JPEG" alt="Toothless_rocket_img" width="300">
+                    <img src="resources/toothless/i28.jpg" alt="Toothless_rocket_img" width="300">
+                    <img src="resources/toothless/i29.jpg" alt="Toothless_rocket_img" width="300">
+                    <img src="resources/toothless/i30.jpg" alt="Toothless_rocket_img" width="300">
+                    <img src="resources/toothless/i31.jpg" alt="Toothless_rocket_img" width="300">
+                    <img src="resources/toothless/i32.JPG" alt="Toothless_rocket_img" width="300">
+                    <img src="resources/toothless/i33.JPEG" alt="Toothless_rocket_img" width="300">
+                    <img src="resources/toothless/i34.JPEG" alt="Toothless_rocket_img" width="300">
+                    <img src="resources/toothless/i35.JPEG" alt="Toothless_rocket_img" width="300">
+                    <img src="resources/toothless/i36.JPEG" alt="Toothless_rocket_img" width="300">
+                    <img src="resources/toothless/i37.JPEG" alt="Toothless_rocket_img" width="300">
+                </div>
+                <h2 id="toothless">Toothless</h2>
+                <h3>May 2024 - May 2025</h3>
+                <ul>
+                    <li>My scratch-built level 1 high-power rocket.</li>
+                    <li>Named after Toothless from How to Train Your Dragon because of its matte black appearance.</li>
+                    <li>Experimented with various manufacturing techniques, including forged composites, over-wrapped plastic composites, vacuum bagging composites, 3D printed tube mandrels, and manual lathe.</li>
+                    <li>Finishing this project involved lots of failures, but resulted in lots of learning.</li>
+                    <li>Earned me the certification on its third launch attempt, reaching an apogee of about 4000 ft.</li>
+                </ul>
+            <!-- morpheus -->
+            </div>
                 <div>
                     <div class="horiz-list-gallery">
                         <img src="resources/IREC_morph/i0.JPEG" alt="cfd_imgIREC_rocket_img0">
@@ -178,71 +187,55 @@
                         <li>I learned the importance considering all possible structural failure modes - no matter how "overbuilt" the structure might seem at a glance!</li>
                     </ul>
                 </div>
-            </div> <!-- end horiz-list -->
+            </div>
+
 
             
             <!-- Row 3 -->
         <h1 class="left-centered-header"></h1>
             <div class="horiz-list">
-                <!-- toothless -->
                 <div>
                     <div class="horiz-list-gallery">
-                        <img src="resources/toothless/i0.JPEG" alt="Toothless_rocket_img" width="300">
-                        <img src="resources/toothless/i1.JPEG" alt="Toothless_rocket_img" width="300">
-                        <img src="resources/toothless/i2.JPEG" alt="Toothless_rocket_img" width="300">
-                        <img src="resources/toothless/i3.JPEG" alt="Toothless_rocket_img" width="300">
-                        <img src="resources/toothless/i4.JPG" alt="Toothless_rocket_img" width="300">
-                        <img src="resources/toothless/i5.JPG" alt="Toothless_rocket_img" width="300">
-                        <img src="resources/toothless/i6.JPG" alt="Toothless_rocket_img" width="300">
-                        <img src="resources/toothless/i7.JPEG" alt="Toothless_rocket_img" width="300">
-                        <img src="resources/toothless/i8.JPEG" alt="Toothless_rocket_img" width="300">
-                        <img src="resources/toothless/i9.JPEG" alt="Toothless_rocket_img" width="300">
-                        <img src="resources/toothless/i10.JPEG" alt="Toothless_rocket_img" width="300">
-                        <img src="resources/toothless/i11.JPEG" alt="Toothless_rocket_img" width="300">
-                        <img src="resources/toothless/i12.JPEG" alt="Toothless_rocket_img" width="300">
-                        <img src="resources/toothless/i13.JPG" alt="Toothless_rocket_img" width="300">
-                        <img src="resources/toothless/i14.JPEG" alt="Toothless_rocket_img" width="300">
-                        <img src="resources/toothless/i15.JPG" alt="Toothless_rocket_img" width="300">
-                        <img src="resources/toothless/i16.JPG" alt="Toothless_rocket_img" width="300">
-                        <img src="resources/toothless/i17.JPG" alt="Toothless_rocket_img" width="300">
-                        <img src="resources/toothless/i18.JPG" alt="Toothless_rocket_img" width="300">
-                        <img src="resources/toothless/i19.JPEG" alt="Toothless_rocket_img" width="300">
-                        <img src="resources/toothless/i20.JPEG" alt="Toothless_rocket_img" width="300">
-                        <img src="resources/toothless/i21.JPEG" alt="Toothless_rocket_img" width="300">
-                        <img src="resources/toothless/i22.JPEG" alt="Toothless_rocket_img" width="300">
-                        <img src="resources/toothless/i23.JPEG" alt="Toothless_rocket_img" width="300">
-                        <img src="resources/toothless/i24.JPEG" alt="Toothless_rocket_img" width="300">
-                        <img src="resources/toothless/i25.JPEG" alt="Toothless_rocket_img" width="300">
-                        <img src="resources/toothless/i26.JPEG" alt="Toothless_rocket_img" width="300">
-                        <img src="resources/toothless/i27.JPEG" alt="Toothless_rocket_img" width="300">
-                        <img src="resources/toothless/i28.jpg" alt="Toothless_rocket_img" width="300">
-                        <img src="resources/toothless/i29.jpg" alt="Toothless_rocket_img" width="300">
-                        <img src="resources/toothless/i30.jpg" alt="Toothless_rocket_img" width="300">
-                        <img src="resources/toothless/i31.jpg" alt="Toothless_rocket_img" width="300">
-                        <img src="resources/toothless/i32.JPG" alt="Toothless_rocket_img" width="300">
-                        <img src="resources/toothless/i33.JPEG" alt="Toothless_rocket_img" width="300">
-                        <img src="resources/toothless/i34.JPEG" alt="Toothless_rocket_img" width="300">
-                        <img src="resources/toothless/i35.JPEG" alt="Toothless_rocket_img" width="300">
-                        <img src="resources/toothless/i36.JPEG" alt="Toothless_rocket_img" width="300">
-                        <img src="resources/toothless/i37.JPEG" alt="Toothless_rocket_img" width="300">
+                        <img src="resources/IREC_sol/i0.png" alt="IREC_rocket_sol_img0">
+                        <img src="resources/IREC_sol/i1.png" alt="IREC_rocket_sol_img1">
+                        <img src="resources/IREC_sol/i2.png" alt="IREC_rocket_sol_img2">
+                        <img src="resources/IREC_sol/i3.png" alt="IREC_rocket_sol_img3">
+                        <img src="resources/IREC_sol/i4.JPEG" alt="IREC_rocket_sol_img4">
+                        <img src="resources/IREC_sol/i5.JPEG" alt="IREC_rocket_sol_img5">
+                        <img src="resources/IREC_sol/i6.JPEG" alt="IREC_rocket_sol_img6">
+                        <img src="resources/IREC_sol/i7.jpg" alt="IREC_rocket_sol_img7">
+                        <img src="resources/IREC_sol/i8.jpg" alt="IREC_rocket_sol_img8">
                     </div>
-                    <h2 id="toothless">Toothless</h2>
-                    <h3>May 2024 - May 2025</h3>
+                    <h2 id="sol-invictus">Sol Invictus</h2>
+                    <h3>August 2025 - May 2026</h3>
                     <ul>
-                        <li>My scratch-built level 1 high-power rocket.</li>
-                        <li>Named after Toothless from How to Train Your Dragon because of its matte black appearance.</li>
-                        <li>Experimented with various manufacturing techniques, including forged composites, over-wrapped plastic composites, vacuum bagging composites, 3D printed tube mandrels, and manual lathe.</li>
-                        <li>Finishing this project involved lots of failures, but resulted in lots of learning.</li>
-                        <li>Earned me the certification on its third launch attempt, reaching an apogee of about 4000 ft.</li>
+                        <li>Student-designed hybrid rocket designed to compete in the 30K hybrids category for the 2026 IREC (International Rocket Engineering Competition).</li>
+                        <li>Designed the nosecone</li>
+                            <ul>
+                                <li>Selected the manufacturing process to fabricate an optimally strong, smooth nosecone with minimal effort.</li>
+                                <li>Modeled the geometry in Ansys ACP Pre.</li>
+                                <li>Ran Ansys Explicit Dynamics and Ansys Static Structural simulations to model ground impact.</li>
+                            </ul>
+                        <li>Designed the fincan</li>
+                            <ul>
+                                <li>Applied knowledge of how minimum diameter sounding rocket fincans are designed.</li>
+                                <li>Modeled the composite fincan in Ansys ACP Pre</li>
+                                <li>Simulated the deflection of the fins and fincan under load to verify adequate strength.</li>
+                            </ul>
+                        <li>Designed the payload</li>
+                            <ul>
+                                <li>I invented a novel snap-fit shelf-spine design that reduces the assembly time and difficulty.</li>
+                                <li>I applied knowledge of mechanical design and engineering from all my different engineering experiences.</li>
+                                <li>Communicated with payload electronics people to make sure their needs were met.</li>
+                            </ul>
                     </ul>
                 </div>
-                <!-- strideguide -->
                 <div>
                     <div class="horiz-list-gallery">
-                        <img src="resources/strideguide_full_gear.JPEG" alt="Carbon Fiber" width="300">
+                        <img src="resources/strideguide_full_gear.JPEG" alt="strideguide gear" width="300">
                         <img src="resources/strideguide_internet_connection.JPEG" alt="Toothless" width="300">
                     </div>
-                    <h2 id="toothless">StrideGuide</h2>
+                    <h2 id="strideguide">StrideGuide</h2>
                     <h3>January 2023 - May 2023</h3>
                     <ul>
                         <li>Designed and constructed a system to collect data on the user's running form through a network of accelerometers in order to provide feedback and reduce injury.</li>
