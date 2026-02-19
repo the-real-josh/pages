@@ -27,7 +27,7 @@ body {
    padding-right: 3vw;
 
    height: 100vh;               /* 100% of the viewport height */
-   background-image: url("background.png");
+   background-image: url("background.jpg");
    background-size: cover;      /* Scale image to fill */
    background-position: center;
    background-repeat: no-repeat;
@@ -204,7 +204,7 @@ body {
    /*intro*/
    .intro-page {
       
-      background-image: url("mobile\ background.png");
+      background-image: url("mobile\ background.jpg");
       background-size: contain;      /* Scale image to fill */
       background-position: center;
       background-repeat: no-repeat;
