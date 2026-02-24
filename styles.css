@@ -204,7 +204,7 @@ body {
    /*intro*/
    .intro-page {
       
-      background-image: url("mobile\ background.jpg");
+      background-image: url("mobile background.jpg");
       background-size: contain;      /* Scale image to fill */
       background-position: center;
       background-repeat: no-repeat;
